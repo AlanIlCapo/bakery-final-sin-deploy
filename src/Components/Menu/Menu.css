@@ -1,0 +1,28 @@
+
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+.menu{
+    background-image: url('../assets/Images/Barley.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 150px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+img{
+    width: 200px;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-contact{
+    height: 100%;
+    width: auto;
+    text-align: right;
+    float: right;
+}
+.contact-text{
+    text-align: left;
+}
+
+.contact-text h2{
+    text-align: left;
+    margin: 0%;
+}
+
+.contact p{
+    font-size: x-large;
+    margin: 0%;
+}
+
+@media(max-width:991px) {
+
+    .image-contact {
+        display: none;
+    }
+}

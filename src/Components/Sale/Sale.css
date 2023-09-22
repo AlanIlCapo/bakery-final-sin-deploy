@@ -1,0 +1,49 @@
+
+.form {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px grba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+
+}
+
+input, textarea {
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+textarea {
+    padding: 20px 25px;
+}
+
+.submit {
+    padding: 10px 25px;
+    color: #fffcf8;
+    background-color: #646463;
+
+}
+
+@media(max-width:991px) {
+
+    .form {
+        padding: 30px;
+    }
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input {
+        padding: 15px;
+    }
+}

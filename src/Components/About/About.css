@@ -1,0 +1,17 @@
+
+
+img.img-carousel {
+	width:50% ;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:991px) {
+
+    img.img-carousel {
+        object-fit: scale-down;
+    }
+}
